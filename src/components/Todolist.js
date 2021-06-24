@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./todolist.css"
+import "./todolist.css";
 
 function Todolist() {
 
@@ -19,7 +19,9 @@ function Todolist() {
       value: task,
       isCompleted: false,
     }
-
+    
+    
+//task list
     setTasklist([...tasklist,taskDetails]);
   }
  };
